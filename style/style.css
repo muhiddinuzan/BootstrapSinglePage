@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.bannerPage {
+    background-image: url(/image/background.png);
+    opacity: 100%;
+}
+
+.container {
+    width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.container__image {
+    position: relative;
+    float: right;
+}
+
+.container__image img {
+    width: 100%;
+    float: right;
+
+}
+
+.container__text {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container__text h1,
+hr {
+    margin-bottom: 20px;
+}
+
+.container__text hr {
+    width: 60px;
+    height: 1px;
+    background-color: #44bbc5;
+}
+
+.container__text button {
+    margin-top: 20px;
+    background-color: rgb(9, 9, 69);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.attract {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.attract h1 {
+    color: #44bbc5;
+    margin-top: 20px;
+
+}
+
+.attract p {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.attractPage {
+    background-color: #022d55;
+}
+
+.pamm {
+    background-color: whitesmoke;
+}
+
+.pamm button {
+    margin-top: 20px;
+    background-color: rgb(9, 9, 69);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pamm h1 {
+    margin-top: 30px;
+}
+
+.pamm img {
+    border: none;
+    background-color: transparent;
+}
+
+.pamm .container .row hr {
+    width: 60px;
+    height: 1px;
+    background-color: #44bbc5;
+}
+
+.pammAccounts .container .row .title hr {
+    width: 60px;
+    height: 1px;
+    background-color: #44bbc5;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.line-5 {
+    height: 5px;
+    background: linear-gradient(to bottom,
+            transparent 2px,
+            black 2px,
+            black 3px,
+            transparent 3px);
+}
+
+.pammAccounts .container .row .textOne p {
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.manager {
+    border: 3px solid rgba(216, 213, 213, 0.701);
+    padding: 10px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits {
+    margin-bottom: 4rem;
+}
+
+.benefits h2 {
+    margin-top: 20px;
+    color: #44bbc5;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0px;
+}
+
+.cards .managers .content ul li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.cards .managers .content ul li img {
+    margin: 15px 15px;
+}
+
+.cards .managers .card--header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cards .managers .action--button {
+    padding: 8px 20px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    margin-top: 1rem;
+    display: inline-flex;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+.cards .managers .action--button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+.topManagerAccounts .title {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 1rem;
+}
+
+.tableContent table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableContent td,
+tr,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.tableContent tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.topManagerAccounts .action--button {
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0;
+
+}
+
+.topManagerAccounts .seeAllButton {
+    padding: 8px 20px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #022c54;
+    color: white;
+    margin-top: 1rem;
+    display: inline-flex;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+.topManagerAccounts .seeAllButton:hover {
+    border: 2px solid #022c54;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+.howWorks .container .row .title {
+    padding-left: 0px;
+
+}
+
+.howWorks .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 1px solid rgba(128, 128, 128, 0.195);
+    padding: 10px;
+
+}
+
+.howWorks .cardSection {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.howWorks .container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+
+}
+
+.howWorks .card .title {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.howWorks .card .title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}
+
+.howWorks .card .title div:first-child {
+    font-size: 60px;
+    color: gray;
+}
+
+.pammAccounts {
+    margin: 2rem 0;
+}
+
+.pammAccounts .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pammAccounts .container .row .title {
+    padding-left: 0px;
+}
+
+.pammAccounts .question {
+    padding: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    cursor: pointer;
+}
+
+
+.pammAccounts .question span img {
+    width: 20px;
+    float: right;
+}
+
+.pammAccounts .questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pammAccounts .action--button {
+    padding: 8px 20px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-flex;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+.pammAccounts .action--button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .container__image img {
+        width: 100%;
+        height: 600px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+}
